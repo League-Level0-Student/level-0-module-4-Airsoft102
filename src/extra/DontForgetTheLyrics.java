@@ -20,21 +20,35 @@ public class DontForgetTheLyrics {
 	 */
 	
 	public static void main(String[] args) {
-		// 4. Make a pop-up to explain the game.
-
+		// 4. Make a pop-up to explain the game.jop
+		JOptionPane.showMessageDialog(null, "you need to guess the lyrics for this song");
+		
 		// 5. Use the playSound method to play your song.
+playSound("FLEX TAPE Commercial.mp3");
+		
+String Foilkite= JOptionPane.showInputDialog("Put in the lyrics");
 
-		// 6. Make a pop-up for the player to type their answer.
-
+// 6. Make a pop-up for the player to type their 
 		// 7. If they answered correctly, tell them that they were right.
+if (Foilkite.equals ("hi phill swift here with flex tape")) {
+JOptionPane.showMessageDialog(null," Good job you know your flex tape");
+}
 
 		// 8. Otherwise, tell them they are wrong, and give them the answer.
+	playSound("Everybody Wants To Rule The World.mp3");
+	
+	String Flysurfer= JOptionPane.showInputDialog("Put in the lyrics");
 
+	// 6. Make a pop-up for the player to type their 
+			// 7. If they answered correctly, tell them that they were right.
+	if (Flysurfer.equals ("Welcome to your life There's no turning back Even while we sleep  We will find You acting on your best behavior Turn your back on mother nature Everybody wants to rule the world")) {
+	JOptionPane.showMessageDialog(null,"you know your fears and your tears");
+	};
+}
 		// 9. Record another sound and repeat steps 5-8.
 
 		// 10. [optional] Add a points variable that will calculate their final score.
-	}
-
+	
 	public static void playSound(String fileName) {
 		AudioClip audioClip = JApplet.newAudioClip(new DontForgetTheLyrics().getClass().getResource(fileName));
 		audioClip.play();
