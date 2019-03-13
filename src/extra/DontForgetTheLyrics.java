@@ -24,7 +24,7 @@ public class DontForgetTheLyrics {
 		JOptionPane.showMessageDialog(null, "you need to guess the lyrics for this song");
 		
 		// 5. Use the playSound method to play your song.
-playSound("FLEX TAPE Commercial.mp3");
+playSound("FLEX TAPE Commercial2.mp3");
 		
 String Foilkite= JOptionPane.showInputDialog("Put in the lyrics");
 
@@ -41,7 +41,7 @@ JOptionPane.showMessageDialog(null," Good job you know your flex tape");
 
 	// 6. Make a pop-up for the player to type their 
 			// 7. If they answered correctly, tell them that they were right.
-	if (Flysurfer.equals ("Welcome to your life There's no turning back Even while we sleep  We will find You acting on your best behavior Turn your back on mother nature Everybody wants to rule the world")) {
+	if (Flysurfer.equals ("Welcome to your life There's no turning back")) {
 	JOptionPane.showMessageDialog(null,"you know your fears and your tears");
 	};
 }
