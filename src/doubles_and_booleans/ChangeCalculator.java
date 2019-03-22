@@ -29,7 +29,7 @@ int yhn=Integer.parseInt(tgb);
 		// Calculate how much money the user has and save it in a double variable 
 double num =(wsx * 5 + edc * 10 + yhn * 25)/100.0;
 		// Tell the user how much money they have
-System.out.println(num);
+JOptionPane.showMessageDialog(null, num);
 	}
 }
 
